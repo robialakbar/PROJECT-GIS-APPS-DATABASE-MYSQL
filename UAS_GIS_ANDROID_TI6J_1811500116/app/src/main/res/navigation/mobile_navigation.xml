@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="ac.id.atmaluhur.uas_gis_android_ti6j_1811500116.ui.home.MapsFragmentHome"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_maps_home" />
+
+    <fragment
+        android:id="@+id/navigation_hospital"
+        android:name="ac.id.atmaluhur.uas_gis_android_ti6j_1811500116.ui.hospital.MapsFragmentHospital"
+        android:label="@string/title_hospital"
+        tools:layout="@layout/fragment_maps_hospital" />
+
+    <fragment
+        android:id="@+id/navigation_schools"
+        android:name="ac.id.atmaluhur.uas_gis_android_ti6j_1811500116.ui.hospital.MapsFragmentHospital"
+        android:label="@string/title_hospital"
+        tools:layout="@layout/fragment_maps_schools" />
+
+    <fragment
+    android:id="@+id/navigation_restaurant"
+    android:name="ac.id.atmaluhur.uas_gis_android_ti6j_1811500116.ui.restaurant.MapsFragmentRestaurant"
+    android:label="@string/title_restaurant"
+    tools:layout="@layout/fragment_maps_restaurant" />
+</navigation>

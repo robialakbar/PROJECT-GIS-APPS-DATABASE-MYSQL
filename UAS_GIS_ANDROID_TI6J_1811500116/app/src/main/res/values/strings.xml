@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UAS_GIS_ANDROID_TI6J_1811500116</string>
+    <string name="title_home">Home</string>
+    <string name="title_hospital">Hospital</string>
+    <string name="title_schools">Schools</string>
+    <string name="title_restaurant">Restaurant</string>
+</resources>
